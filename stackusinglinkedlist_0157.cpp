@@ -31,6 +31,15 @@ public:
 		cout << "Push value: " << value << endl;
 		return value;
 	}
+
+	void pop()
+	{
+		if (isEmpty())
+		{
+			cout << "Stack is empty." << endl;
+			return;
+		}
+	}
 };
 
 int main() {
